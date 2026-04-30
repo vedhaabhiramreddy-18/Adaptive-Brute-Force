@@ -1,0 +1,26 @@
+# ── Build outputs ─────────────────────────────────────────────────────────────
+abfams
+abfams_debug
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+
+# ── CMake generated ───────────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_CPack_Packages/
+install_manifest.txt
+
+# ── IDE / editor files ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
